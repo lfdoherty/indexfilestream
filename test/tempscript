@@ -1,0 +1,7 @@
+#!/bin/sh
+while :; do
+  echo starting command
+  timeout -k 1s 5s node temptest.js
+  timeout -k 2s 5s node temptest.js
+  echo Command terminated, restarting...
+done

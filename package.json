@@ -1,0 +1,15 @@
+{
+	"name": "indexfilestream",
+	"version": "0.1.0",
+	"description": "Uses segmentedfile to provide a efficient, garbage-collecting key->value map with streaming read.",
+	"main": "./indexfile",
+	"author": "Liam Doherty",
+	"dependencies" : { 
+		"underscorem": ">0.1",
+		"parsicle": "*",
+		"inquisitor-sim": "*"
+	},
+	"engines": {
+		 "node" : "0.6"
+	}
+}
