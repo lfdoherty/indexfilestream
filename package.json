@@ -5,9 +5,8 @@
 	"main": "./indexfile",
 	"author": "Liam Doherty",
 	"dependencies" : { 
-		"underscorem": ">0.1",
-		"parsicle": "*",
-		"inquisitor-sim": "*"
+		"underscorem": "git://github.com/lfdoherty/underscorem.git",
+		"parsicle": "git://github.com/lfdoherty/parsicle.git"
 	},
 	"engines": {
 		 "node" : "0.6"
