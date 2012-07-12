@@ -163,7 +163,10 @@ exports.open = function(config, cb){
 		var pw = indexParser.binary.stream.makeWriter(maxSegmentLength, ew)
 		
 		var res = {}
-		_.each(pw, function(f, key){
+		//_.each(pw, function(f, key){
+		Object.keys(pw).forEach(function(key){
+			var f = pw[key]
+			
 			if(key === 'flush'){
 				res[key] = f;
 				return;

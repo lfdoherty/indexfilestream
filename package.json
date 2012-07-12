@@ -1,6 +1,6 @@
 {
 	"name": "indexfilestream",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Uses segmentedfile to provide a efficient, garbage-collecting key->value map with streaming read.",
 	"main": "./indexfile",
 	"author": "Liam Doherty",
@@ -10,6 +10,6 @@
 		"segmentedfile": "git://github.com/lfdoherty/segmentedfile.git"
 	},
 	"engines": {
-		 "node" : "0.6"
+		 "node" : ">=0.6"
 	}
 }
